@@ -3,13 +3,13 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120847
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 01. 22. 09:46:01
+# 작성일: 2026. 01. 22. 11:45:22
 
 # 정렬을 이용하는 방법
-# def solution(numbers):
-#     numbers.sort()
-#     answer = numbers[-1] * numbers[-2]
-#     return answer
+def solution(numbers):
+    numbers.sort()
+    answer = numbers[-1] * numbers[-2]
+    return answer
 
 # 반복문을 이용하는 방법
 def solution(numbers):
