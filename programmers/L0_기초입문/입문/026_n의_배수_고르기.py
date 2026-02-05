@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120905
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 02. 05. 15:41:40
+# 작성일: 2026. 02. 05. 15:42:24
 
 def solution(n, numlist):
     answer = []
