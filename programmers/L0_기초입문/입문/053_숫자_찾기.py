@@ -3,11 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120904
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 02. 26. 09:38:25
+# 작성일: 2026. 02. 26. 09:40:14
 
 def solution(num, k):
-    str_num = str(num)
-    str_k = str(k)
-    index = str_num.find(str_k)
-    answer = index + 1 if index != -1 else -1
-    return answer
+    answer = str(num).find(str(k))
+    return answer + 1 if answer != -1 else -1
