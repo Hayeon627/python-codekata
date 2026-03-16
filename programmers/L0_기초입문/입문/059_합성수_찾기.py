@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120846
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 03. 16. 18:02:02
+# 작성일: 2026. 03. 16. 18:02:25
 
 def solution(n):
     answer = []
@@ -16,6 +16,8 @@ def solution(n):
             answer.append(i)
     return len(answer)
 
+
+# 제곱근 사용
 import math
 
 def solution(n):
