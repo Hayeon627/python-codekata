@@ -3,10 +3,9 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120838
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 03. 17. 17:17:23
+# 작성일: 2026. 03. 17. 17:17:45
 
 def solution(letter):
-    answer = ''
     morse = { 
     '.-':'a','-...':'b','-.-.':'c','-..':'d','.':'e','..-.':'f',
     '--.':'g','....':'h','..':'i','.---':'j','-.-':'k','.-..':'l',
@@ -14,6 +13,7 @@ def solution(letter):
     '...':'s','-':'t','..-':'u','...-':'v','.--':'w','-..-':'x',
     '-.--':'y','--..':'z'
     }
+    answer = ''
     for a in letter.split():
         answer += morse.get(a)
     return answer
