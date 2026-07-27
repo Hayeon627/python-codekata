@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120816
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 02. 04. 12:49:40
+# 작성일: 2026. 07. 28. 02:51:04
 
 def solution(slice, n):
     answer = n // slice
