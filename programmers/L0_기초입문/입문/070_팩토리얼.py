@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120848
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 07. 31. 00:38:50
+# 작성일: 2026. 07. 31. 00:39:47
 
 def solution(n):
     fact = 1
@@ -13,3 +13,12 @@ def solution(n):
         fact = i * fact
     answer = i - 1
     return answer
+
+# 내장함수 사용
+import math
+
+def solution(n):
+    i = 1
+    while math.factorial(i) <= n:
+        i += 1
+    return i - 1
