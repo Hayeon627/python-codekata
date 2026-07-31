@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120885
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 07. 31. 18:22:10
+# 작성일: 2026. 07. 31. 18:22:17
 
 def solution(bin1, bin2):
     answer = []
@@ -24,6 +24,6 @@ def solution(bin1, bin2):
     return answer
 
 
-# # 내장함수
-# def solution(bin1, bin2):
-#     return bin(int(bin1, 2) + int(bin2, 2))[2:]
+# 내장함수
+def solution(bin1, bin2):
+    return bin(int(bin1, 2) + int(bin2, 2))[2:]
