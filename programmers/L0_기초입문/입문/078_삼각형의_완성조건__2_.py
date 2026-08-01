@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120868
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 08. 01. 15:51:20
+# 작성일: 2026. 08. 01. 15:53:07
 
 def solution(sides):
     answer = 0
@@ -11,4 +11,9 @@ def solution(sides):
         answer += 1
     for i in range(max(sides)+1, min(sides)+max(sides)):
         answer += 1
+    return answer
+
+# 간단하게
+def solution(sides):
+    answer = (min(sides)) + (min(sides) - 1)
     return answer
