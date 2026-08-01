@@ -3,8 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120922
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 08. 01. 16:35:27
+# 작성일: 2026. 08. 01. 16:36:47
 
 def solution(M, N):
-    answer = M-1 + M * (N-1)
+    answer = M-1 + M * (N-1)    # = M * N -1
     return answer
