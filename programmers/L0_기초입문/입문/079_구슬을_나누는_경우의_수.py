@@ -3,15 +3,15 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120840
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 08. 01. 16:04:58
+# 작성일: 2026. 08. 01. 16:05:30
 
 def solution(balls, share):
-    numerator = 1
+    numerator = 1       # 0으로 초기화하면 ZeroDivisionError 발생
     denominator = 1
     
     for a, b in zip(range(balls, balls-share, -1), range(share, 0, -1)):
         numerator *= a
         denominator *= b
         
-    answer = numerator // denominator         # 조합은 정수로 나오기 때문에 정수 나눗셈 사용
+    answer = numerator // denominator     # 조합은 정수로 나오기 때문에 정수 나눗셈 사용
     return answer
