@@ -3,9 +3,10 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120883
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 08. 04. 16:37:23
+# 작성일: 2026. 08. 04. 16:40:15
 
 def solution(id_pw, db):
+    answer = 'fail'
     for id, pw in db:
         if id == id_pw[0]:
             if pw == id_pw[1]:
@@ -14,5 +15,4 @@ def solution(id_pw, db):
             else:
                 answer = 'wrong pw'
                 break
-        answer = 'fail'
     return answer
