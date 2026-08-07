@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120907
 # 알고리즘: 기초
 # 작성자: 김하연
-# 작성일: 2026. 08. 07. 13:33:03
+# 작성일: 2026. 08. 07. 13:33:17
 
 def solution(quiz):
     answer = []
@@ -19,5 +19,4 @@ def solution(quiz):
             answer.append('O')
         else:
             answer.append('X')
-              
     return answer
